@@ -6,6 +6,8 @@
     }
   ],
   "functions": {
-    "nodeVersion": "14"
+    "api/**": {
+      "runtime": "nodejs14.x"  // 设置 Node.js 14 版本
+    }
   }
 }
