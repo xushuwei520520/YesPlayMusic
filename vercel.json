@@ -4,10 +4,4 @@
       "source": "/api/:match*",
       "destination": "https://neteasecloudmusicapi.vercel.app/#/?id=%e5%ae%89%e8%a3%85/:match*"
     }
-  ],
-  "functions": {
-    "api/**/*": {
-      "runtime": "nodejs14.x"
-    }
-  }
 }
